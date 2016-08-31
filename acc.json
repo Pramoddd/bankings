@@ -1,0 +1,28 @@
+{
+    "accounts": [
+        {
+            "name": "John Doe",
+            "accountno": "000 101 123456",
+            "ifsccode": "031203999",
+            "branchname": "PNC Bank, Pittsburgh",
+            "swiftcode": "PNCCUS33",
+            "currency": "USD"
+        },
+        {
+            "name": "James Adams",
+            "accountno": "520 642 51234",
+            "ifsccode": "122100024",
+            "branchname": "CHASE, Phoenix",
+            "swiftcode": "CHASUS33",
+            "currency": "USD"
+        },
+        {
+            "name": "William Smith",
+            "accountno": "162 210 1012345",
+            "ifsccode": "021200339",
+            "branchname": "Bank of America, New Jersey",
+            "swiftcode": "BOFAUS3N",
+            "currency": "USD"
+        }
+    ]
+}
