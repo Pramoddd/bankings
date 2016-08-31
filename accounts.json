@@ -1,0 +1,22 @@
+{
+  "accounts": [
+    {
+      "accountno": "1001234567",
+      "branchname": "New Jersey",
+      "amount": "23,456",
+      "currency": "USD"
+    },
+    {
+      "accountno": "1003456789",
+      "branchname": "New Jersey",
+      "amount": "14,000",
+      "currency": "USD"
+    },
+    {
+      "accountno": "1556004321",
+      "branchname": "Phoenix",
+      "amount": "45,000",
+      "currency": "USD"
+    }
+  ]
+}
