@@ -1,1 +1,12 @@
-{"success":"true"}
+{
+	"checkdetails": [
+		{
+			"checkid": 12356,
+			"clearedstatus": "true"
+		},
+		{
+			"checkid": 45678,
+			"clearedstatus": "false"
+		}
+	]
+}
