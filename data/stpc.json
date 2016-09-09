@@ -1,12 +1,22 @@
 {
-	"checkdetails": [
-		{
-			"checkid": 12345,
-			"clearedstatus": "true"
-		},
-		{
-			"checkid": 45678,
-			"clearedstatus": "false"
-		}
-	]
+    "checkdetails": [
+        {
+            "Accountnumber": "123456767677",
+            "Checknumber": "18172827",
+            "DateofCheck": "29/10/2016",
+            "Amount": "$1000",
+            "PayeesName": "John",
+            "Reason for Stopping Check": "Lost",
+            "checkid": "12345"
+        },
+        {
+            "Accountnumber": "623453546374",
+            "Checknumber": "25346378",
+            "DateofCheck": "23/10/2016",
+            "Amount": "$2000",
+            "PayeesName": "George",
+            "ReasonforStoppingCheck": "Lost",
+            "checkid": "45678"
+        }
+    ]
 }
