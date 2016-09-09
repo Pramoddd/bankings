@@ -1,0 +1,12 @@
+{
+    "checkdetails": [
+      {
+        "checkid": 12345,
+        "clearedstatus": "true"
+      },
+      {
+        "checkid": 45678,
+        "clearedstatus": "false"
+      }
+    ]
+  }
