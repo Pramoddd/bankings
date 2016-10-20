@@ -1,6 +1,12 @@
 {
-    "HealthandBeauty": {
-        "saloon1": "Green Trends Unisex Hair And Style Salon GV $50 - Points Redeemed 500",
-        "saloon2": "Bounce Salon & Spa GV $50 - Points Redeemed 800"
-    }
+    "path": [
+        {
+            "key": "Green Trends Unisex Hair And Style Salon GV $50 - Points Redeemed 500",
+            "value": "Green Trends Unisex Hair And Style Salon GV $50 - Points Redeemed 500"
+        },
+        {
+            "key": "Bounce Salon & Spa GV $50 - Points Redeemed 800",
+            "value": "Bounce Salon & Spa GV $50 - Points Redeemed 800"
+        }
+    ]
 }
