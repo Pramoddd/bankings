@@ -1,6 +1,12 @@
 {
-    "Travel": {
-        "travel1": "Cox and Kings GV $60 – Points Redeemed 500",
-        "trevel2": " Expedia GV $50 – Points Redeemed 500"
-    }
+    "path": [
+        {
+            "key": "Cox and Kings GV $60 – Points Redeemed 500",
+            "value": "Cox and Kings GV $60 – Points Redeemed 500"
+        },
+        {
+            "key": " Expedia GV $50 – Points Redeemed 500",
+            "value": " Expedia GV $50 – Points Redeemed 500"
+        }
+    ]
 }
