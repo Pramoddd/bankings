@@ -1,6 +1,12 @@
 {
-    "Hotels": {
-        "hotel1": "Le Meridien GV $50 - Points Redeemed 500",
-        "hotel2": "Sunray Hotel GV $60 -  Points Redeemed 600"
-    }
+    "path": [
+        {
+            "key": "Le Meridien GV $50 - Points Redeemed 500",
+            "value": "Le Meridien GV $50 - Points Redeemed 500"
+        },
+        {
+            "key": "Sunray Hotel GV $60 -  Points Redeemed 600",
+            "value": "Sunray Hotel GV $60 -  Points Redeemed 600"
+        }
+    ]
 }
