@@ -1,6 +1,12 @@
 {
-    "Apparel": {
-        "dress1": "Van Heusen GV $50 - Points Redeemed 500",
-        "dress2": "Louis Philippe GV GV $50 - Points Redeemed 500"
-    }
+    "path": [
+        {
+            "key": "Van Heusen GV $50 - Points Redeemed 500",
+            "value": "Van Heusen GV $50 - Points Redeemed 500"
+        },
+        {
+            "key": "Louis Philippe GV $50 - Points Redeemed 500",
+            "value": "Louis Philippe GV $50 - Points Redeemed 500"
+        }
+    ]
 }
