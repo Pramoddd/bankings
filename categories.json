@@ -1,0 +1,24 @@
+{
+    "categories": [
+        {
+            "key": "Apparel",
+            "value": "Apparel"
+        },
+        {
+            "key": "Health & Beauty",
+            "value": "Health & Beauty"
+        },
+        {
+            "key": "Hotels",
+            "value": "Hotels"
+        },
+        {
+            "key": "Dining",
+            "value": "Dining"
+        },
+        {
+            "key": "Travel",
+            "value": "Travel"
+        }
+    ]
+}
