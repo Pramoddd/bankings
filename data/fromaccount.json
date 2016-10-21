@@ -1,0 +1,16 @@
+{
+    "payment": [
+        {
+            "key": "xxxxxxxxxxxxx4567, New Jersey, $23,456",
+            "value": "xxxxxxxxxxxxx4567, New Jersey, $23,456"
+        },
+        {
+            "key": "xxxxxxxxxxxxx6789, New Jersey, $14,000",
+            "value": "xxxxxxxxxxxxx6789, New Jersey, $14,000"
+        },
+        {
+            "key": "xxxxxxxxxxxxx4321, Phoenix, $45,000",
+            "value": "xxxxxxxxxxxxx4321, Phoenix, $45,000"
+        }
+    ]
+}
