@@ -1,0 +1,24 @@
+{
+    "transfer": [
+        {
+            "key": "Monthly ",
+            "value": "1"
+        },
+        {
+            "key": "Alternate Month",
+            "value": "2"
+        },
+        {
+            "key": "Quarterly ",
+            "value": "3"
+        },
+        {
+            "key": "Half-Yearly",
+            "value": "6"
+        },
+        {
+            "key": "Yearly  ",
+            "value": "12"
+        }
+    ]
+}
