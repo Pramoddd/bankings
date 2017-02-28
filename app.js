@@ -52,13 +52,15 @@ app.get('/data/searchPin/:pincode',function (req,res){
 	var pincodeObj = {};
 	fs.readFile('./data/'+fileName,function(err,data){
 			var pincodes = JSON.parse(data.toString());
-			
+			console.log(pincodes);
 			for(var i=0;i<pincodes.length;i++) {
 				pincodeObj = pincodes[i];
 				if(pincodeObj.pincode === pincode) {
+					console.log('found');
 					break;
+				} else {
+					pincodeObj = {};
 				}
-				pincodeObj = {};
 			}
 		console.log(pincodeObj);
 			res.send(pincodeObj);
