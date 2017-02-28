@@ -49,7 +49,7 @@ app.get('/data/searchPin/:pincode',function (req,res){
 	var fileName = "pincode.json";
 	var pincode = req.params.pincode;
 	if(pincode) {
-		pincode = Integer.parseInt(pincode);
+		pincode = parseInt(pincode);
 	}
 	console.log("search for pincode:",pincode);
 	var pincodeObj = {};
