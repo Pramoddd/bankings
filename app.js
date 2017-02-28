@@ -48,11 +48,14 @@ app.get('/data/searchPin/:pincode',function (req,res){
 
 	var fileName = "pincode.json";
 	var pincode = req.params.pincode;
-	console.log("pincode:",pincode);
+	if(pincode) {
+		pincode = Integer.parseInt(pincode);
+	}
+	console.log("search for pincode:",pincode);
 	var pincodeObj = {};
 	fs.readFile('./data/'+fileName,function(err,data){
 			var pincodes = JSON.parse(data.toString());
-			console.log(pincodes);
+			
 			for(var i=0;i<pincodes.length;i++) {
 				pincodeObj = pincodes[i];
 				if(pincodeObj.pincode === pincode) {
