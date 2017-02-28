@@ -44,6 +44,26 @@ app.get('/data/:fileName',function (req,res){
 	
 });
 
+app.get('/data/searchPin/:pincode',function (req,res){
+
+	var fileName = "pincode.json";
+	var pincode = req.params.pincode;
+	console.log("pincode:",pincode);
+	var pincodeObj = {};
+	fs.readFile('./data/'+fileName,function(err,data){
+			var pincodes = JSON.parse(data.toString());
+			
+			for(var i=0;i<pincodes.length;i++) {
+				pincodeObj = pincodes[i];
+				if(pincodeObj.pincode === pincode) {
+					break;
+				}
+				pincodeObj = {};
+			}
+		console.log(pincodeObj);
+			res.send(pincodeObj);
+	});
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
